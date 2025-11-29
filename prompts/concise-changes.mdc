@@ -1,10 +1,3 @@
----
-tags: [programming, critical-thinking]
-category: programming
-models: [gpt-5.1]
-title: Concise Changes
-description: Coding agent’s responses to be short for small changes and longer for more detailed queries
----
 <final_answer_formatting>
 - Final answer compactness rules (enforced):
   - Tiny/small single-file change (≤ ~10 lines): 2–5 sentences or ≤3 bullets. No headings. 0–1 short snippet (≤3 lines) only if essential.

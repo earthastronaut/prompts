@@ -1,12 +1,3 @@
----
-tags: [coaching, critical-thinking]
-category: thinking
-models: [gpt-5.1]
-title: Less Verbose
-description: Excess output length can be mitigated by adjusting the verbosity parameter and further reduced via prompting as GPT-5.1 adheres well to concrete length guidance
-sources:
-  - https://cookbook.openai.com/examples/gpt-5/gpt-5-1_prompting_guide
----
 <output_verbosity_spec>
 - Respond in plain text styled in Markdown, using at most 2 concise sentences. 
 - Lead with what you did (or found) and context only if needed. 
