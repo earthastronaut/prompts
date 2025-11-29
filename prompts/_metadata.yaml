@@ -1,0 +1,43 @@
+prompts:
+  # ######################################################################### #
+  - name: Buying Advisor
+    tags: [buying, advisor, critical-thinking]
+    category: buying
+    description: A prompt for getting a buying advisor to help me buy the best option
+    file: buying-advisor.md
+  # ######################################################################### #
+  - name: Intellectual Sparring Partner
+    tags: [intellectual-development, debate, analysis]
+    category: personal-development
+    title: Intellectual Sparring Partner
+    description: A prompt for getting a intellectual sparring partner to help me improve my thinking
+    file: intellectual-sparing-partner.md
+  # ######################################################################### #
+  - name: Less Verbose
+    tags: [coaching, critical-thinking]
+    category: thinking
+    models: [gpt-5.1]
+    title: Less Verbose
+    description: A prompt for getting a less verbose response
+    file: less-verbose.md
+  # ######################################################################### #
+  - name: Concise Changes
+    tags: [programming, critical-thinking]
+    category: programming
+    models: [gpt-5.1]
+    title: Concise Changes
+    description: A prompt for getting a concise changes
+    file: concise-changes.md
+  # ######################################################################### #
+  - name: Customer Support
+    tags: [coaching, critical-thinking]
+    category: customer-success
+    models: [gpt-5.1]
+    title: Customer Support
+    description: A prompt for getting a customer support response
+    file: customer_support.md
+  # ######################################################################### #
+  - name: Code Review Assistant
+    tags: [programming, critical-thinking]
+    category: programming
+    models: [gpt-5.1]
