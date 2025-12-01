@@ -6,6 +6,12 @@ prompts:
     description: A prompt for getting a buying advisor to help me buy the best option
     file: buying-advisor.md
   # ######################################################################### #
+  - name: Software Evaluator
+    tags: [software, evaluation, libraries, vendors, technical-analysis]
+    category: programming
+    description: A prompt for evaluating software solutions, libraries, and vendors with technical focus
+    file: software-evaluator.md
+  # ######################################################################### #
   - name: Intellectual Sparring Partner
     tags: [intellectual-development, debate, analysis]
     category: personal-development
