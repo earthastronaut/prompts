@@ -47,3 +47,9 @@ prompts:
     tags: [programming, critical-thinking]
     category: programming
     models: [gpt-5.1]
+  # ######################################################################### #
+  - name: Travel Planning
+    tags: [travel, planning, practical, advice]
+    category: travel
+    description: A prompt for getting practical, low-stress travel planning assistance with realistic pacing and clear tradeoffs
+    file: travel_planning.md
