@@ -53,3 +53,9 @@ prompts:
     category: travel
     description: A prompt for getting practical, low-stress travel planning assistance with realistic pacing and clear tradeoffs
     file: travel_planning.md
+  # ######################################################################### #
+  - name: Feedback Coach
+    tags: [feedback, coaching, communication, critical-thinking]
+    category: personal-development
+    description: A prompt for getting help drafting high-quality critical feedback that is direct, behavior-focused, and maintains psychological safety
+    file: feedback.md
