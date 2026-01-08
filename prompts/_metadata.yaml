@@ -59,3 +59,9 @@ prompts:
     category: personal-development
     description: A prompt for getting help drafting high-quality critical feedback that is direct, behavior-focused, and maintains psychological safety
     file: feedback.md
+  # ######################################################################### #
+  - name: Resume Customizer
+    tags: [resume, career, job-application, keywords, ats]
+    category: career
+    description: A prompt for customizing resumes to match specific job descriptions, extracting keywords, and optimizing for ATS systems
+    file: resume-customizer.md
