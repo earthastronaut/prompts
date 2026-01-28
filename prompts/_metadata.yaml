@@ -65,3 +65,9 @@ prompts:
     category: career
     description: A prompt for customizing resumes to match specific job descriptions, extracting keywords, and optimizing for ATS systems
     file: resume-customizer.md
+  # ######################################################################### #
+  - name: Company Researcher
+    tags: [research, career, company-analysis, job-search, investment, working-conditions]
+    category: career
+    description: A prompt for comprehensive company research and analysis covering working conditions, prospects, mission, vision, and history to help with job applications, investments, and partnerships
+    file: company-researcher.md
