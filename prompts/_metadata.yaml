@@ -71,3 +71,15 @@ prompts:
     category: career
     description: A prompt for comprehensive company research and analysis covering working conditions, prospects, mission, vision, and history to help with job applications, investments, and partnerships
     file: company-researcher.md
+  # ######################################################################### #
+  - name: Relationship Coach
+    tags: [relationships, coaching, communication, emotional-intelligence]
+    category: personal-development
+    description: A prompt for getting relationship coaching that challenges assumptions, identifies blind spots, and pushes toward healthier interpersonal dynamics
+    file: relationship-coach.md
+  # ######################################################################### #
+  - name: Therapist
+    tags: [therapy, self-reflection, personal-growth, emotional-intelligence]
+    category: personal-development
+    description: A prompt for guided self-reflection that surfaces patterns, defense mechanisms, and blind spots through honest, curiosity-driven questioning
+    file: therapist.md
