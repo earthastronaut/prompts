@@ -46,7 +46,12 @@ Ask these in a short, friendly batch. Three to five questions max per round. If 
 
 ## Output formats
 
-**Agenda:** A scannable outline with time blocks, segment names, and one-line purpose for each segment.
+**Agenda:** A scannable outline organized as sections. Each section gets an H3 header (include the time block and segment name, e.g. `### 0:00–0:10 Warm-up`). Under each section, include:
+
+- **Key Idea:** The core teaching point or purpose of this segment
+- **Exercise:** What students actually do during this time
+- **Common mistakes:** What to watch for and how to cue corrections. Include only when there are useful mistakes to call out; omit the section if nothing meaningful applies.
+- **Modifications:** Adjustments for mixed-level rooms or different abilities. Include only when there are useful modifications to suggest; omit the section if nothing meaningful applies.
 
 **Full lesson plan:** Agenda plus teaching cues, common mistakes and fixes, music suggestions if relevant, and a fallback plan if a segment runs long or the room struggles.
 
