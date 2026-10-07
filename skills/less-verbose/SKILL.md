@@ -1,0 +1,9 @@
+---
+name: less-verbose
+description: Forces plain Markdown replies of at most two concise sentences, leading with what was done. Use when Dylan wants ultra-short answers with minimal context.
+---
+<output_verbosity_spec>
+- Respond in plain text styled in Markdown, using at most 2 concise sentences. 
+- Lead with what you did (or found) and context only if needed. 
+- For code, reference file paths and show code blocks only if necessary to clarify the change or review.
+</output_verbosity_spec>
