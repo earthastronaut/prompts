@@ -1,40 +1,40 @@
-# Prompts Repository
+# Prompts
 
-A collection of useful prompts organized by category and tagged for easy discovery.
+Dylan's personal skills, packaged as a Claude plugin marketplace. The repo is both the marketplace and its single plugin (`prompts`).
 
-## Structure
+## Layout
 
-- `prompts/` - Main directory containing all prompt files
-- Each prompt is stored as a `.mdc` file with tags at the top
+- `skills/<name>/SKILL.md` - one skill per folder, with `name` and `description` frontmatter
+- `.claude-plugin/marketplace.json` - marketplace definition
+- `.claude-plugin/plugin.json` - plugin manifest
+- `.cursor/skills` - symlink to `skills/` so Cursor sees the same skills
 
-## File Format
+## Sync with Claude Desktop (Cowork)
 
-Each prompt file follows this format:
+1. Plugins page -> **Add marketplace** -> `earthastronaut/prompts`
+2. Install the `prompts` plugin.
+3. After pushing changes, click **Update** on the marketplace. Sync is a manual pull, not automatic.
 
-```mdc
----
-tags: [tag1, tag2, tag3]
-category: category-name
-title: Prompt Title
-description: Brief description of what this prompt does
----
+## Claude Code
 
-# Prompt Title
-
-Your prompt content here...
+```
+/plugin marketplace add earthastronaut/prompts
+/plugin install prompts@prompts
 ```
 
-## Tags
+## Add a skill
 
-Tags help organize and find prompts. Common tags include:
-- `ai-assistant` - Prompts for AI assistants
-- `coding` - Programming-related prompts
-- `writing` - Writing and content creation
-- `analysis` - Data analysis prompts
-- `creative` - Creative tasks
-- `productivity` - Productivity and workflow prompts
+1. Create `skills/<name>/SKILL.md`:
 
-## Usage
+   ```markdown
+   ---
+   name: <name>
+   description: What it does and when to use it.
+   ---
+   # Title
 
-Browse the `prompts/` directory to find prompts by category or search by tags.
+   Instructions...
+   ```
 
+2. Commit and push to `main`.
+3. Click **Update** in Cowork (or `/plugin marketplace update prompts` in Claude Code).

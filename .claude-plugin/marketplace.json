@@ -1,0 +1,12 @@
+{
+  "name": "prompts",
+  "owner": { "name": "earthastronaut" },
+  "metadata": { "description": "Skills and prompts" },
+  "plugins": [
+    {
+      "name": "prompts",
+      "source": "./",
+      "description": "Personal skills: coaching, review, writing style, research, planning, model selection"
+    }
+  ]
+}
