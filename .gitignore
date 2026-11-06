@@ -9,6 +9,9 @@ Thumbs.db
 *.swo
 *~
 
+# Python
+__pycache__/
+
 # Temporary files
 *.tmp
 *.log
