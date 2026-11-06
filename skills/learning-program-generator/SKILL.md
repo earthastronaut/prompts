@@ -97,6 +97,88 @@ Deliver the learning program as:
 [Link to tracking template]
 ```
 
+## Project Workspace Setup
+
+After generating a learning program, create a persistent project workspace to store all program materials:
+
+### 1. Create Project Directory
+```bash
+mkdir -p /data/.openclaw/workspaces/projects/{program-name-slug}/
+```
+
+### 2. Create Standard Subdirectories
+```bash
+mkdir -p /data/.openclaw/workspaces/projects/{program-name-slug}/modules
+mkdir -p /data/.openclaw/workspaces/projects/{program-name-slug}/notes
+mkdir -p /data/.openclaw/workspaces/projects/{program-name-slug}/progress
+```
+
+### 3. Save the Full Program
+Write the complete learning program (overview, modules, milestones, tracking template, resource list) to:
+```
+/data/.openclaw/workspaces/projects/{program-name-slug}/program.md
+```
+
+### 4. Create next.md — Next Step Instructions
+Create a `next.md` file in the project root with instructions for the immediate next step:
+
+```markdown
+# Next Step: [Program Name]
+
+## Current Module
+**Module [N]: [Module Name]**
+
+## Immediate Task
+[Specific, actionable task to start right now — e.g., "Read Chapter 1 of [Resource] and complete exercises 1-3"]
+
+## Time Estimate
+[X] hours
+
+## Resources for This Step
+- [Primary resource with link and specific pages/sections]
+- [Supplementary resource if needed]
+
+## Definition of Done
+[Clear criteria for completing this step — e.g., "Can explain concept X to someone else" or "Completed exercises 1-3 with working code"]
+
+## Next After This
+[Brief note on what comes after — e.g., "Move to Module 2: [Name]"]
+
+---
+
+## Full Program Reference
+See `program.md` for the complete curriculum, all modules, milestones, and resource list.
+```
+
+### 5. Initialize Progress Tracking
+Create a simple progress tracker:
+```
+/data/.openclaw/workspaces/projects/{program-name-slug}/progress/tracker.md
+```
+
+```markdown
+# Progress Tracker: [Program Name]
+
+## Overall Progress
+- **Started:** [Date]
+- **Target Completion:** [Date]
+- **Current Module:** [N] / [Total]
+
+## Module Progress
+| Module | Status | Started | Completed | Notes |
+|--------|--------|---------|-----------|-------|
+| 1: [Name] | 🔄 In Progress / ✅ Done / ⏳ Pending | [Date] | [Date] | |
+| 2: [Name] | ⏳ Pending | - | - | |
+
+## Weekly Log
+| Week | Dates | Hours Spent | Completed | Notes |
+|------|-------|-------------|-----------|-------|
+| 1 | [Dates] | [X] | [What was done] | |
+
+## Reflections & Adjustments
+[Space for retrospectives every 2-3 weeks]
+```
+
 ## Verification
 After generating a program, verify:
 - [ ] All modules have clear, measurable objectives
